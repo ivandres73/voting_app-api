@@ -12,29 +12,29 @@ product = Product.create(
 			description: "On-demand sand castle construction expertise.",
 			votes: 0,
 			submitterAvatarURL: "avatars/daniel.jpg",
-      		productImageUrl: "products/image-aqua.png"
+      productImageUrl: "products/image-aqua.png"
 		},
 		{
 			title: "Supermajority: The Fantasy Congress League",
-        	description: "Earn points when your favorite politicians pass legislation.",
-      		votes: 0,
-      		submitterAvatarURL: "avatars/kristy.png",
-      		productImageUrl: "products/image-rose.png"
+      description: "Earn points when your favorite politicians pass legislation.",
+      votes: 0,
+      submitterAvatarURL: "avatars/kristy.png",
+      productImageUrl: "products/image-rose.png"
 		},
 		{
 			title: "Tinfoild: Tailored tinfoil hats",
-        	description: "We already have your measurements and shipping address.",
-      		votes: 0,
-      		submitterAvatarURL: "avatars/veronika.jpg",
-      		productImageUrl: "products/image-steel.png"
-      	},
-      	{
-      		title: "Haught or Naught",
-        	description: "High-minded or absent-minded? You decide.",
-      		votes: 0,
-      		submitterAvatarURL: "images/avatars/molly.png",
-      		productImageUrl: "images/products/image-yellow.png"
-      	}
+      description: "We already have your measurements and shipping address.",
+      votes: 0,
+      submitterAvatarURL: "avatars/veronika.jpg",
+      productImageUrl: "products/image-steel.png"
+    },
+    {
+      title: "Haught or Naught",
+      description: "High-minded or absent-minded? You decide.",
+      votes: 0,
+      submitterAvatarURL: "images/avatars/molly.png",
+      productImageUrl: "images/products/image-yellow.png"
+    }
 
 	]
 )
