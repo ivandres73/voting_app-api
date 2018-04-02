@@ -16,7 +16,7 @@ class ProductsController < ApplicationController
 
 		render json: @products
 	end
-
+  
 	def destroy
 		@product = Product.find(params[:id])
 		if @product.destroy
