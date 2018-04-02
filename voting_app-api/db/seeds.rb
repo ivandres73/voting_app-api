@@ -11,22 +11,22 @@ product = Product.create(
 			title: "Yellow Pail",
 			description: "On-demand sand castle construction expertise.",
 			votes: 0,
-			submitterAvatarURL: "avatars/daniel.jpg",
-      productImageUrl: "products/image-aqua.png"
+			submitterAvatarURL: "images/avatars/daniel.jpg",
+      productImageUrl: "images/products/image-aqua.png"
 		},
 		{
 			title: "Supermajority: The Fantasy Congress League",
       description: "Earn points when your favorite politicians pass legislation.",
       votes: 0,
-      submitterAvatarURL: "avatars/kristy.png",
-      productImageUrl: "products/image-rose.png"
+      submitterAvatarURL: "images/avatars/kristy.png",
+      productImageUrl: "images/products/image-aqua.png"
 		},
 		{
 			title: "Tinfoild: Tailored tinfoil hats",
       description: "We already have your measurements and shipping address.",
       votes: 0,
-      submitterAvatarURL: "avatars/veronika.jpg",
-      productImageUrl: "products/image-steel.png"
+      submitterAvatarURL: "images/avatars/veronika.jpg",
+      productImageUrl: "images/products/image-steel.png"
     },
     {
       title: "Haught or Naught",
