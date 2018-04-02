@@ -35,6 +35,10 @@ module VotingAppApi
             origins 'http://localhost:3000'
             resource '*', :headers => :any, :methods => [:get, :post, :put, :delete, :options]
         end
+        allow do
+          origins 'https://votingapp-frontend.herokuapp.com/'
+          resource '*', :headers => :any, :methods => [:get, :post, :put, :delete, :options]
+      end
     end
     
   end
